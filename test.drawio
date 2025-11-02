@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
+  <diagram id="bcpd22fHjVhyl9jXK8gV" name="Page-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eve79ncDTpkBIKiupnr1-74" value="Student" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="95" width="80" height="400" as="geometry">
+            <mxRectangle x="80" y="95" width="80" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-75" value="CourseService" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="95" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-84" value="[Not Already Enrolled]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Eve79ncDTpkBIKiupnr1-75">
+          <mxGeometry x="-20" y="315" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-76" value="JsonDatabaseManager" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="95" width="120" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-77" value="browseCourses()" style="endArrow=block;html=1;rounded=0;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1" source="Eve79ncDTpkBIKiupnr1-74" target="Eve79ncDTpkBIKiupnr1-75">
+          <mxGeometry x="-0.0429" y="-65" relative="1" as="geometry">
+            <mxPoint x="160" y="145" as="sourcePoint" />
+            <mxPoint x="330" y="145" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-78" value="getAvailableCourses()" style="endArrow=block;html=1;rounded=0;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1" source="Eve79ncDTpkBIKiupnr1-75" target="Eve79ncDTpkBIKiupnr1-76">
+          <mxGeometry x="-0.2333" y="-185" relative="1" as="geometry">
+            <mxPoint x="330" y="165" as="sourcePoint" />
+            <mxPoint x="540" y="165" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-79" value="List&lt;Course&gt;" style="endArrow=open;html=1;rounded=0;dashed=1;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1" source="Eve79ncDTpkBIKiupnr1-76" target="Eve79ncDTpkBIKiupnr1-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="185" as="sourcePoint" />
+            <mxPoint x="330" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-80" value="Display Courses" style="endArrow=open;html=1;rounded=0;dashed=1;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0524" y="325" relative="1" as="geometry">
+            <mxPoint x="330" y="240" as="sourcePoint" />
+            <mxPoint x="120" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-81" value="enrollInCourse(courseId, studentId)" style="endArrow=block;html=1;rounded=0;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0476" y="-70" relative="1" as="geometry">
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="330" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-82" value="getStudentEnrollments(studentId)" style="endArrow=block;html=1;rounded=0;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1" source="Eve79ncDTpkBIKiupnr1-75" target="Eve79ncDTpkBIKiupnr1-76">
+          <mxGeometry x="0.0524" y="-85" relative="1" as="geometry">
+            <mxPoint x="330" y="265" as="sourcePoint" />
+            <mxPoint x="540" y="265" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-83" value="List&lt;Enrollment&gt;" style="endArrow=open;html=1;rounded=0;dashed=1;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1" source="Eve79ncDTpkBIKiupnr1-76" target="Eve79ncDTpkBIKiupnr1-75">
+          <mxGeometry x="0.095" y="65" relative="1" as="geometry">
+            <mxPoint x="540" y="285" as="sourcePoint" />
+            <mxPoint x="330" y="285" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-86" value="success" style="endArrow=open;html=1;rounded=0;dashed=1;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1">
+          <mxGeometry x="0.0429" y="10" relative="1" as="geometry">
+            <mxPoint x="539.5" y="370" as="sourcePoint" />
+            <mxPoint x="329.5" y="370" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-87" value="Enrollment Confirmation" style="endArrow=open;html=1;rounded=0;dashed=1;entryX=0;entryY=0;exitX=1;exitY=0;strokeColor=#008000;" edge="1" parent="1">
+          <mxGeometry x="0.0429" y="-50" relative="1" as="geometry">
+            <mxPoint x="329.5" y="390" as="sourcePoint" />
+            <mxPoint x="119.5" y="390" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-85" value="addEnrollment(studentId, courseId)" style="endArrow=block;html=1;rounded=0;entryX=0;entryY=0;exitX=1;exitY=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0429" y="-105" relative="1" as="geometry">
+            <mxPoint x="120" y="270" as="sourcePoint" />
+            <mxPoint x="330" y="270" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eve79ncDTpkBIKiupnr1-89" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;shadow=0;strokeColor=default;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+          <mxGeometry x="-0.9045" width="80" relative="1" as="geometry">
+            <mxPoint x="119.5" y="350" as="sourcePoint" />
+            <mxPoint x="339.5" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
