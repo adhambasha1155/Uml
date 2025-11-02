@@ -91,16 +91,6 @@
             <mxPoint x="356" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lGMdnAb1Lm3kadG7_hAG-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;entryX=0.491;entryY=0.582;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="166" y="550" as="sourcePoint" />
-            <mxPoint x="261" y="622" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="196" y="550" />
-              <mxPoint x="196" y="615" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lGMdnAb1Lm3kadG7_hAG-13" value="login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="486" y="460" width="60" height="50" as="geometry" />
         </mxCell>
@@ -133,6 +123,71 @@
             <Array as="points">
               <mxPoint x="346" y="560" />
               <mxPoint x="346" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-19" value="create course" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="625" width="92" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-20" value="delete course" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="690" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-21" value="manage course" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="364.5" y="740" width="103" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-22" value="upload lesson" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="382" y="790" width="85.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-23" value="design quiz" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="690" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-24" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lGMdnAb1Lm3kadG7_hAG-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="620" />
+              <mxPoint x="330" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-25" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lGMdnAb1Lm3kadG7_hAG-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="620" />
+              <mxPoint x="330" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-26" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lGMdnAb1Lm3kadG7_hAG-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="620" />
+              <mxPoint x="330" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-27" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lGMdnAb1Lm3kadG7_hAG-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="620" as="sourcePoint" />
+            <mxPoint x="430" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="620" />
+              <mxPoint x="330" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lGMdnAb1Lm3kadG7_hAG-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="lGMdnAb1Lm3kadG7_hAG-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="620" as="sourcePoint" />
+            <mxPoint x="490" y="620" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="620" />
+              <mxPoint x="470" y="720" />
             </Array>
           </mxGeometry>
         </mxCell>
